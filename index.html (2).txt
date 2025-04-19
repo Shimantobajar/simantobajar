@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shmantobajar</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #3498db;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .banner {
+      background: #e74c3c;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    form {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      padding: 10px 15px;
+      background: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Shmantobajar</h1>
+  <p>আপনার বিশ্বস্ত অনলাইন ইলেকট্রনিক্স দোকান</p>
+</header>
+
+<nav>
+  <a href="#products">পণ্য</a>
+  <a href="#order">অর্ডার</a>
+  <a href="#reviews">রিভিউ</a>
+  <a href="#contact">যোগাযোগ</a>
+</nav>
+
+<div class="banner">
+  🔥 আজকের অফার: যেকোনো হেডফোনে ১০% ছাড়! 🔥
+</div>
+
+<section id="products">
+  <h2>পণ্যসমূহ</h2>
+  <div class="product">
+    <h3>স্মার্টফোন</h3>
+    <p>সর্বশেষ মডেলের অ্যান্ড্রয়েড ও iPhone - শুরু ১০,০০০ টাকা থেকে</p>
+  </div>
+  <div class="product">
+    <h3>স্মার্ট ঘড়ি</h3>
+    <p>Fitness ট্র্যাকারসহ আধুনিক ডিজাইন - শুরু ২,০০০ টাকা থেকে</p>
+  </div>
+  <div class="product">
+    <h3>ব্লুটুথ হেডফোন</h3>
+    <p>নয়েজ ক্যান্সেলিংসহ crystal clear sound - শুরু ১,২০০ টাকা থেকে</p>
+  </div>
+</section>
+
+<section id="order">
+  <h2>অর্ডার করুন</h2>
+  <form>
+    <input type="text" placeholder="আপনার নাম" required>
+    <input type="text" placeholder="মোবাইল নম্বর" required>
+    <input type="text" placeholder="আপনার ঠিকানা" required>
+    <textarea placeholder="আপনি কোন পণ্য অর্ডার করতে চান?" rows="3" required></textarea>
+    <button type="submit">অর্ডার পাঠান</button>
+  </form>
+</section>
+
+<section id="reviews">
+  <h2>কাস্টমার রিভিউ</h2>
+  <div class="product">
+    <p>⭐️⭐️⭐️⭐️⭐️ <br> "দারুণ সার্ভিস! অর্ডার দেয়ার ২ দিনের মধ্যে পণ্য হাতে পেয়ে গেছি।"</p>
+    <p>- জাহিদ, ঢাকা</p>
+  </div>
+  <div class="product">
+    <p>⭐️⭐️⭐️⭐️ <br> "ঘড়িটার ডিজাইন আর ফিচার অসাধারণ। আবার অর্ডার করবো ইনশাআল্লাহ।"</p>
+    <p>- সুমি, চট্টগ্রাম</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>যোগাযোগ করুন</h2>
+  <form>
+    <input type="text" placeholder="আপনার নাম" required>
+    <input type="email" placeholder="আপনার ইমেইল" required>
+    <textarea placeholder="আপনার বার্তা লিখুন..." rows="4"></textarea>
+    <button type="submit">পাঠান</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Shmantobajar | সকল স্বত্ব সংরক্ষিত
+</footer>
+
+</body>
+</html>
